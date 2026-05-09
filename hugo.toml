@@ -1,0 +1,47 @@
+baseURL = "https://xingyakai.github.io/"
+languageCode = "zh-CN"
+title = "xingyakai 的个人博客"
+theme = "PaperMod"
+defaultContentLanguage = "zh"
+hasCJKLanguage = true
+[pagination]
+  pagerSize = 10
+
+[params]
+  env = "production"
+  title = "xingyakai 的个人博客"
+  description = "记录技术、思考与生活"
+  author = "xingyakai"
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  TocOpen = false
+
+[params.homeInfoParams]
+  Title = "👋 Hi，我是 xingyakai"
+  Content = "这里记录我的技术笔记、学习心得和日常思考，欢迎来逛逛。"
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/xingyakai"
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "文章"
+    url = "/posts/"
+    weight = 10
+  [[menu.main]]
+    identifier = "tags"
+    name = "标签"
+    url = "/tags/"
+    weight = 20
+  [[menu.main]]
+    identifier = "about"
+    name = "关于"
+    url = "/about/"
+    weight = 30
